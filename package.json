@@ -1,0 +1,17 @@
+{
+  "name": "discord-promoter",
+  "version": "1.0.0",
+  "description": "A discord bot that abuses personal discord account and self promo channels lol",
+  "main": "app.js",
+  "scripts": {
+    "release": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "nokyoxd",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "discord.js-selfbot": "^12.0.2",
+    "nodemon": "^3.1.0"
+  }
+}
