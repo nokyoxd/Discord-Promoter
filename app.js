@@ -1,7 +1,7 @@
-const discord = require('discord.js-selfbot');
+const discord = require('discord.js-selfbot-v13');
 const utils = require('./utils.js');
 
-const token = "";
+const token = "NTAyMjk5MzI4NTU2MTcxMjY0.GWIcuw.IDFbm2XpeZLQXFVSAIoQA5ZfZf509YXzPZFWNY";
 const client = new discord.Client();
 
 client.on('ready', () => {
@@ -26,7 +26,7 @@ const postMessage = async (data) => {
     }
 }
 
-client.on('message', async interaction => {
+client.on('messageCreate', async interaction => {
 
     const channel_id = interaction.channel.id;
     if (channel_id !== "1212084116963467326")
